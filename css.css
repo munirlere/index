@@ -1,0 +1,72 @@
+body{
+    background-color: gray;
+}
+
+
+ /* Basic styling for the navbar */
+ .navbar {
+    background-color: gray;
+    overflow: hidden;
+}
+
+/* Style for the navbar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+    /*everything else*/
+
+    p{
+color: gray;
+}
+
+label{
+    color: antiquewhite;
+    padding-bottom: 10%;
+}
+
+
+#firstName{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 3%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#lastname{
+    padding-bottom: 15px;
+    padding-right: 3%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#password{
+    padding-bottom: 15px;
+    padding-right: 1%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Message{
+    padding-bottom: 15px;
+}
+
+.Gender{
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.ageandbday{
+    padding-bottom: 15px;
+}
