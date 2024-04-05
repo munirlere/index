@@ -38,26 +38,72 @@ label{
 }
 
 
-#divfirstName{
+.divfirstName{
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 3%;
     font-weight: bold;
     font-family: sans-serif;
 }
 
-#lastname{
+.divfirstName label {
+    padding-right: 18px;
+}
+
+.lastname{
     padding-bottom: 15px;
-    padding-right: 3%;
     font-weight: bold;
     font-family: sans-serif;
 }
 
-#password{
+.lastname label{
+    padding-right: 3px;
+}
+
+.password{
+    padding-right: 28.5px;
+}
+
+#divpassword{
     padding-bottom: 15px;
     padding-right: 1%;
     font-weight: bold;
     font-family: sans-serif;
+}
+
+
+
+.divgender{
+        padding-bottom: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+}
+
+.divgender select{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.divage{
+    padding-bottom: 15px;  
+    font-family: sans-serif;
+    font-weight: bold;  
+}
+
+.divage input{
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.divbday{
+    padding-right: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.divbday input{
+    margin-left: 35px;
 }
 
 .divmessage{
@@ -68,34 +114,7 @@ label{
     padding-bottom: 15px;
     font-weight: bold;
     font-family: sans-serif;
-    padding-right: 10%;
-}
-
-.Gender{
-    padding-bottom: 15px;
-    padding-right: 15px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-.ageandbday{
-    padding-bottom: px;
-}
-
-.divage{
-    padding-bottom: 15px;    
-}
-
-.age{
-    padding-right: 50px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-.bday{
-    padding-right: 7%;
-    font-family: sans-serif;
-    font-weight: bold;
+    padding-right: 38px;
 }
 
 .divbutton{
