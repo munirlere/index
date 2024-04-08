@@ -1,68 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN PAGE</title>
+  <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
     <div class="navbar">
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
-        <a href="#">OTHER INFO</a>
-    </div>  
-
-    <div class="wrapper">
-
-    <form action="index.html" method="post">
-
-      <div class="divfirstName">
-        
-        <label>First Name </label>
-        <input type="text" name="firstName">
-        <br>
-      </div>
-
-      <div class="lastname">
-      <label>Last Name</label>  <input type="text" name="lastName"><br>
-      </div>
-
-      <div id="divpassword">
-        <label class="password">Password</label><input type="password" name="password" placeholder="type your password">
-      </div>
-
-      <div class="divgender">
-        <label>Gender</label>
-        <select name="genderSelect">
-          <option value="Male">Male</option>    
-          <option value="Female">Female</option>
-        </select>
-      </div>
-
-     <div class="divage">
-      <label>Age</label>
-      <input type="number" name="age" placeholder="18" class="age input">
-      <br> 
-      </div>
-
-      <div class="divbday">
-      <label>Birthday</label>
-      <input type="date" name="birthday" class="bday input">
-      </div>
-      <br>
-      
-      <div class="divmessage">
-        <label class="Message">Message</label><textarea name="testArea" rows="1" cols=""></textarea>
-      </div>
-      
-      <div class="divbutton">
-      <button class="button" type="button" name="submit">SUBMIT</button>
+      <a href="#">HOME</a>
+      <a href="#">CONTACT</a>
+      <a href="#">ABOUT</a>
+      <a href="#">OTHER</a>
     </div>
 
-    </form>
-</div>
+    <div class="container">
+      <form action="">
+        <h1>SIGN IN</h1>
+        <div class="formgroup">
+          <label for="">NAME</label>
+          <input type="text" class="forminput">
+        </div>
 
+        <div class="formgroup">
+        <label for="">Email</label>
+        <input type="email" class="forminput" placeholder="something@gmail.com">
+        </div>
+
+        <div class="formgroup">
+          <label for="">Password</label>
+          <input type="password " class="forminput" placeholder="Enter your password">
+        </div>
+
+        <input type="button" value="Login" class="button">
+      </form>
+    </div>
 </body>
 </html>
