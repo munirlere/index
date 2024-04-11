@@ -5,26 +5,43 @@
     box-sizing: border-box;
 }
 
-.navbar{
-    overflow: hidden;
+ul{
+    list-style: none;
 }
 
-.navbar a{
+ul li{
+    display: inline-block;
+    position: relative;
+}
 
+ul li a{
     display: block;
+    padding: 20px 25px;
     color: black;
-    text-align: left;
-    padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
     font-family: sans-serif;
     font-weight: bold;
-    float: left;
 }
 
-.navbar a:hover{
-    transition: 0.3s;
-    color: black;
-    background-color: #ddd;
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown {
+    display: none;
+    width: 100%;
+    position: absolute;
+}
+
+ul li a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    text-decoration-color: #ddd;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
 }
 
 body{
